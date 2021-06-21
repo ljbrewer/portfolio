@@ -1,9 +1,9 @@
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
-  --outer-space: #33393f;
-  --bright-turquoise: #2aefcb;
-  --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --outer-space: #82c2d6;
+  --bright-turquoise: #2a4eef;
+  --gin: #c1cac5;
+  --heliotrope: #5712b3;
 }
 
 /* set content highlight color and background */
@@ -70,13 +70,6 @@ p {
   margin-bottom: 1rem;
 }
 
-code {
-  /* Monospace font stack is used for our code blocks to make it look more like code */
-  font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
-    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
-    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
-    monospace;
-}
 
 header {
   width: 96%;
@@ -89,6 +82,20 @@ header h1.page-title {
   padding: 1rem 1.2rem;
   font-size: 4.5rem;
 }
+
+header h2.page-title {
+  padding: 1rem 1.2rem;
+  font-size: 2rem;
+ }
+
+ header h2{
+   text-align: left;
+   font-size: 2rem;
+ }
+ header p{
+   text-align: left;
+   width: 100%;
+ }
 
 main {
   width: 96%;
