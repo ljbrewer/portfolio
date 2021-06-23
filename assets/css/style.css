@@ -1,15 +1,16 @@
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
-  --outer-space: #82c2d6;
-  --bright-turquoise: #2a4eef;
-  --gin: #c1cac5;
-  --heliotrope: #5712b3;
+  --main-backgroundlight: lightblue;
+  --highlight: #1c2fe0;
+  --textcolor:#c1cac5;
+  --heliotrope: #128a76;
+  --textdark: black;
 }
 
 /* set content highlight color and background */
 ::selection {
-  background-color: var(--bright-turquoise);
-  color: var(--outer-space);
+  background-color: var(--highlight);
+  color: var(--textdark);
 }
 
 html {
@@ -25,20 +26,17 @@ body {
   /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
   font-size: 1.75rem;
   line-height: 1.5;
-  color: var(--gin);
-  background-color: var(--outer-space);
+  color: var(--textdark);
+  background-color: var(--main-backgroundlight);
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   margin-bottom: 0.625rem;
-  color: var(--heliotrope);
+  color: var(--textdark);
   font-weight: 700;
   line-height: 1.1;
+  font-size: 3rem;
 }
 
 h1 {
@@ -47,27 +45,12 @@ h1 {
 }
 
 h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
   font-size: 3rem;
-}
-
-h4 {
-  font-size: 2.5rem;
-}
-
-h5 {
-  font-size: 2rem;
-}
-
-h6 {
-  font-size: 1.5rem;
 }
 
 p {
   margin-bottom: 1rem;
+  color: var(--textdark)
 }
 
 
@@ -136,10 +119,10 @@ footer {
   justify-content: flex-start;
   min-height: 100%;
   padding: 2rem;
-  color: var(--heliotrope);
+  color: var(--textcolor);
 
   /* outline is like border, but on the outside of the box instead of inside */
-  outline: 2px dashed var(--gin);
+  outline: 2px dashed var(--highlight);
   outline-offset: -2px;
   transition: all 0.5s ease-in-out;
 }
@@ -149,9 +132,9 @@ footer {
   position: relative;
   margin: -4rem 0 1.5rem 0;
   padding: 0.5rem 1rem;
-  background-color: var(--outer-space);
+  background-color: var(--main-backgroundlight;
   color: var(--heliotrope);
-  border: 2px solid var(--gin);
+  border: 2px solid var(--highlight);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
@@ -173,7 +156,7 @@ footer {
   overflow: auto;
   tab-size: 4;
   padding: 1.2rem 1rem;
-  color: var(--gin);
+  color: var(--textdark);
   border-radius: 8px;
   /* use linear-gradient() function to create a fading background  */
   background-image: linear-gradient(
