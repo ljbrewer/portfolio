@@ -5,6 +5,8 @@
   --textcolor:#c1cac5;
   --heliotrope: #128a76;
   --textdark: black;
+  --textmedium:blue;
+
 }
 
 /* set content highlight color and background */
@@ -44,6 +46,11 @@ h1 {
   font-size: 4rem;
 }
 
+header h1 {
+  display: inline-block;
+
+}
+
 h2 {
   font-size: 3rem;
 }
@@ -55,16 +62,42 @@ p {
 
 
 header {
-  width: 96%;
+  width: 50%;
   margin: 0 auto;
   padding: 2.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 header h1.page-title {
   padding: 1rem 1.2rem;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
+
+header nav {
+  padding-top: 1px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color:var(--textdark);
+  text-decoration: none;
+}
+
+
+
+
 
 header h2.page-title {
   padding: 1rem 1.2rem;
@@ -132,9 +165,9 @@ footer {
   position: relative;
   margin: -4rem 0 1.5rem 0;
   padding: 0.5rem 1rem;
-  background-color: var(--main-backgroundlight;
-  color: var(--heliotrope);
-  border: 2px solid var(--highlight);
+  background-color: var(--main-backgroundlight); 
+  color: var(--textmedium);
+  border: 2px solid var(--textdark);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
 }
@@ -160,7 +193,7 @@ footer {
   border-radius: 8px;
   /* use linear-gradient() function to create a fading background  */
   background-image: linear-gradient(
-    rgba(232, 102, 236, 0.3) 0%,
+    rgba(104, 102, 236, 0.3) 0%,
     rgba(232, 102, 236, 0.6) 100%
   );
   display: flex;
@@ -193,7 +226,7 @@ footer {
   }
 
   .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
