@@ -31,5 +31,9 @@ I included sections for:
 7. WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport - **completed**
 
-link to page
-link to Github repository
+### link to page :https://ljbrewer.github.io/portfolio/
+### link to Github repository:  https://github.com/ljbrewer/portfolio
+
+### picture of page: 
+![image of Portfolio Website]
+(https://ljbrewer.github.io/portfolio/assets/images/portfoliopage.png)
