@@ -21,16 +21,15 @@ I included sections for:
 2. WHEN I load their portfolio
     THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 3. WHEN I click one of the links in the navigation
-    THEN the UI scrolls to the corresponding section - completed
+    THEN the UI scrolls to the corresponding section - **completed**
 4. WHEN I click on the link to the section about their work
-    THEN the UI scrolls to a section with titled images of the developer's applications - completed
+    THEN the UI scrolls to a section with titled images of the developer's applications - **completed**
 5. WHEN I am presented with the developer's first application
     THEN that application's image should be larger in size than the others
 6. WHEN I click on the images of the applications
-    THEN I am taken to that deployed application - completed
+    THEN I am taken to that deployed application - **completed**
 7. WHEN I resize the page or view the site on various screens and devices
-    THEN I am presented with a responsive layout that adapts to my viewport - completed
-
+    THEN I am presented with a responsive layout that adapts to my viewport - **completed**
 
 link to page
 link to Github repository
