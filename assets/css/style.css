@@ -118,12 +118,10 @@ header h2.page-title {
  }
 
 main {
-  width: 96%;
+  width: 95%;
   margin: 2rem auto;
 }
-.project1 {
- width: 100%
- }
+
 article nav ul li{
   display: inline-block;
   margin-left: 25px;
@@ -231,3 +229,17 @@ footer {
     max-width: 50%;
   }
 }
+
+.project1 {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 100%;
+  max-width:100%;
+  padding: 2rem;
+  color: var(--textcolor);
+
+}
+
+
