@@ -36,5 +36,7 @@ I included sections for:
 ### link to Github repository:  https://github.com/ljbrewer/portfolio
 
 ### picture of Webpage:
+
 ![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolio1.png)
+
 ![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolio2.png)
