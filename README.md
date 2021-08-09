@@ -32,6 +32,7 @@ I included sections for:
     THEN I am presented with a responsive layout that adapts to my viewport - **completed**
 
 ### link to page :https://ljbrewer.github.io/portfolio/
+
 ### link to Github repository:  https://github.com/ljbrewer/portfolio
 
 ### picture of Webpage:
