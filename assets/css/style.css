@@ -189,7 +189,7 @@ footer {
   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
 }
 
-.box-project {
+.box-project img {
   /* set styles to make it so box wraps in <pre> instead of overflowing */
   tab-size: 4;
   padding: 1.2rem 1rem;
