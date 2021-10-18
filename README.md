@@ -5,10 +5,11 @@
 I was to create a webpage that provided a glimpse in the projects I have completed to date.
 
 I made room to include four projects:
-   1. Animal Adoption Website 
-   2. Day Planner 
-   3. Horiseon web page
-   4. Password Generator
+   1. Home Inventory Database
+   2. Animal Adoption Website 
+   3. Day Planner 
+   4. Horiseon web page
+   5. Password Generator
 
 I included sections for:
     About Me Inforamtion, 
@@ -37,6 +38,6 @@ I included sections for:
 
 ### picture of Webpage:
 
-![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolio1.png)
+![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolioupdate.jpg)
 
 ![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolio2.png)
