@@ -38,6 +38,4 @@ I included sections for:
 
 ### picture of Webpage:
 
-![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolioupdate.jpg)
-
-![image of Portfolio Website](https://ljbrewer.github.io/portfolio/assets/images/portfolio2.png)
+![image of Portfolio Website](./assets/images/portfolioupdate.jpg)
